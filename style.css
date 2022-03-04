@@ -18,6 +18,18 @@ a:hover {
     cursor: pointer;
 }
 
+
+ul{
+    list-style: none;
+    display: flex;
+    font-size: 1.3em;
+    justify-content: center;
+}
+
+li{
+    margin-right: 10px;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -707,6 +719,8 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    display: flex;
+    justify-content: center;
 }
 
 h3 {
