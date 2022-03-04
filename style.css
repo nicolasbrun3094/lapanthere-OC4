@@ -663,7 +663,10 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+}
+
+li a{
+    color: #FFFFFF;
 }
 
 .container {
