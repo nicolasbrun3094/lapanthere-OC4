@@ -756,8 +756,8 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.black {
-    color: #000000;
+.foot-font-color{
+    color: rgba(255, 255, 255, .7);
 }
 
 .portfolio-thumb {
