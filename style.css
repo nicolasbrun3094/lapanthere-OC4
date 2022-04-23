@@ -24,6 +24,7 @@ ul{
     display: flex;
     font-size: 1.3em;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 li{
@@ -527,8 +528,8 @@ button {
     height: 40px;
     position: fixed;
     bottom: 20px;
-    right: 20px;
     opacity: 0;
+    right: 20px;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
