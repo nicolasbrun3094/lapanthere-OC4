@@ -129,7 +129,7 @@ li{
 }
 
 .d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
+    border-color: rgba(0, 0, 0, 0.2);
 }
 
 .d-bloc .a-btn,
@@ -146,7 +146,7 @@ li{
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .d-bloc .a-btn:hover,
@@ -758,7 +758,7 @@ h4 {
 }
 
 .foot-font-color{
-    color: rgba(255, 255, 255, .7);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .font-color-black{
@@ -849,6 +849,10 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.black{
+    color: #000000;
 }
 
 @media (max-width: 1024px) {
@@ -1059,6 +1063,15 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .icon-md {
+        font-size: 48px!important;
+    }
+
+    .cta-hero{
+        font-size: 48px;
+    }
+
 }
 
 @media (max-width: 767px) {
